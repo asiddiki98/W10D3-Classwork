@@ -1,0 +1,66 @@
+div, h1{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font: inherit;
+    text-align: inherit;
+    text-decoration: inherit;
+    color: inherit;
+    background: transparent;
+    list-style: none;
+}
+
+
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin: 10px 0px 10px 0px;
+    font-family: Pirata one;
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+}
+
+.board{
+    background-color: grey;
+    border: 2px solid lightgrey;
+    display: flex;
+    width: 211px;
+    height: 212px;
+    background-position: center;
+    margin: 0px 0px 0px 0px;
+    justify-content: space-around; 
+
+    
+}
+.unexplored{
+    border: 1.8px solid grey;
+    background-color: lightgrey;
+    border-style: outset;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    font-family: Pirata one;
+    font-size: small;
+
+    
+}
+
+.explored{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font: inherit;
+    text-align: inherit;
+    text-decoration: inherit;
+    color: inherit;
+    background: transparent;
+    list-style: none;
+
+}
